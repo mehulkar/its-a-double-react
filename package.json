@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "turbo run build"
   },
   "author": "",
   "license": "ISC",
   "workspaces": [
     "apps/site",
     "apps/docs"
-  ]
+  ],
+  "dependencies": {
+    "turbo": "^1.5.6"
+  }
 }
