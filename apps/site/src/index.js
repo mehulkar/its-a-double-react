@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function App() {
-  return <div className="App">Site!</div>;
+  return <div className="App">Site! with React v{React.version}</div>;
 }
 
 export default App;
